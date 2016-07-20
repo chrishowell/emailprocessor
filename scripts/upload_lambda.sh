@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/bin/sh
 
 profile=$1
 function=$2
