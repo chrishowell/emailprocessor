@@ -6,7 +6,7 @@ binary=$3
 handler=$4
 
 aws lambda update-function-code \
-    --profile "$1" \
+    --profile "$profile" \
     --function-name "$function" \
     --zip-file "fileb://$binary"
 
